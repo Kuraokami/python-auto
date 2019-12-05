@@ -16,7 +16,7 @@ login = None
 driver = webdriver.Chrome()
 
 
-@scenario('features/test_login.feature', 'I can login with valid user')
+@scenario('./features/test_login.feature', 'I can login with valid user')
 def test_i_can_login_with_valid_user():
     pass
 
